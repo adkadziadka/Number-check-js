@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+	 <meta lang="en">
+	 <title>Numbers</title>
+	 <meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 
+	 <script type="text/javascript" src="main.js">
+	 </script>
+</head>
+<body onload="counting();">
+	<div id="clock"></div>
+	<br>
+	<div>
+		<h2>Put your number to check:</h2>
+		<input type="text" id="input1" />
+		<input type="submit" value="check!" onclick="check()" />
+		<div id="number-check"></div>
+	</div>
+	<br>
+	
+	<div>
+		<h2>Put numbers to show the range:</h2>
+		<input type="text" id="input2" />
+		<input type="text" id="input3" />
+		<input type="submit" value="show" onclick="show()"/>
+		<div id="summary"></div>
+	</div>
+</body>
+</html>
+
